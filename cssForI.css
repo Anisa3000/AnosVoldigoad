@@ -2,7 +2,11 @@
     box-sizing: border-box;
 }
 
-body {
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.body2 {
     height: 100vh;
     font-family: 'Exo 2.0 Medium', sans-serif; /*'Courier New', Courier, monospace ; "Roboto", sans-serif; */
     display: grid;
@@ -34,6 +38,8 @@ ul {
     background-color: rgb(177, 168, 159);
     border: 1px solid rgb(177, 168, 159);
     flex-direction: column;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(98, 64, 30) rgb(177, 168, 159);
 }
 
 img.prof {
@@ -51,6 +57,9 @@ img.prof {
     font-weight: bold;
     text-align: center;
     font-size: 18px;
+    position: sticky;
+    top: 0;
+    background: #fff;
 }
 .osnovnoe {
     padding: 10px;
@@ -89,6 +98,7 @@ img.prof {
 
 .pad {
     padding-bottom: 8px;
+    padding-top: 10px;
 }
 
 .tel-ikonka {
@@ -99,11 +109,42 @@ img.prof {
     width: 15px;
     height: 15px;
 }
-.tel {
-    display: flex;
-}
 
 .inst {
     width: 15px;
     height: 15px;
+}
+
+.header {
+    text-align: center;
+    /* height: 40px; */
+    background-color: rgb(87, 64, 26);  
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 100%; 
+}
+
+.Anos {
+    font-size: 22px;
+}
+
+.Vladika {
+    font-size: 10px;
+    color: bisque;
+}
+.uf {
+    /* border: 3px solid #69584b; */
+    padding-bottom: 28px;
+}
+
+.zagolovok1 {
+    border: 1px solid black;
+    /* border-radius: 5px; */
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    background: rgb(177, 168, 159);
 }
