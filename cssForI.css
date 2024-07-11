@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Exo 2.0 Medium', sans-serif; /*'Courier New', Courier, monospace ; "Roboto", sans-serif; */
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(98, 64, 30)
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+.glavnoe {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(177, 168, 159);
+    border: 1px solid rgb(177, 168, 159);
+    flex-direction: column;
+}
+
+img.prof {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.zagolovok {
+    border: 1px solid black;
+    /* border-radius: 5px; */
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.osnovnoe {
+    padding: 10px;
+}
+
+.grnavik {
+    color: rgb(98, 64, 30);
+    font-weight: bolder;
+}
+.education {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.punkt{
+    font-weight: bolder;
+}
+.experiencen {
+    display: grid;
+    grid-template-columns: 30% 70%; 
+}
+
+.education2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.razdelenie {
+    height: 1px;
+    opacity: 0.5; 
+    border-top: 1.5px dashed #3c2b2b;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.pad {
+    padding-bottom: 8px;
+}
+
+.tel-ikonka {
+    width: 15px;
+    height: 15px;
+}
+.gmail {
+    width: 15px;
+    height: 15px;
+}
+.tel {
+    display: flex;
+}
+
+.inst {
+    width: 15px;
+    height: 15px;
+}
