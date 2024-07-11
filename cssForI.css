@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin-left: 0px;
+}
+
 ::-webkit-scrollbar {
     width: 0;
 }
